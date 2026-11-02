@@ -1,0 +1,222 @@
+{
+  "currency": "USD",
+  "shipping": {
+    "flat": 6.5,
+    "freeOver": 65
+  },
+  "products": [
+    {
+      "sku": "kit-miso-chicken",
+      "name": { "en": "Miso chicken taco kit", "ja": "味噌チキンタコスキット" },
+      "description": {
+        "en": "Tortillas, chicken thigh, saikyo miso, cabbage, scallion, and sesame for two.",
+        "ja": "2人分のトルティーヤ、鶏もも、西京味噌、キャベツ、ねぎ、ごま。"
+      },
+      "category": "kit",
+      "price": 24,
+      "serves": 2,
+      "recipeIds": ["miso-chicken-tacos"],
+      "covers": [
+        { "ingredientId": "corn-tortilla", "amount": 6 },
+        { "ingredientId": "chicken-thigh", "amount": 300 },
+        { "ingredientId": "saikyo-miso", "amount": 2 },
+        { "ingredientId": "cabbage", "amount": 120 },
+        { "ingredientId": "scallion", "amount": 2 },
+        { "ingredientId": "sesame", "amount": 1 }
+      ]
+    },
+    {
+      "sku": "kit-yuzu-shrimp",
+      "name": { "en": "Yuzu shrimp taco kit", "ja": "柚子シュリンプタコスキット" },
+      "description": {
+        "en": "Tortillas, shrimp, cabbage, and mayo for two.",
+        "ja": "2人分のトルティーヤ、えび、キャベツ、マヨネーズ。"
+      },
+      "category": "kit",
+      "price": 26,
+      "serves": 2,
+      "recipeIds": ["yuzu-shrimp-tacos"],
+      "covers": [
+        { "ingredientId": "corn-tortilla", "amount": 6 },
+        { "ingredientId": "shrimp", "amount": 250 },
+        { "ingredientId": "cabbage", "amount": 100 },
+        { "ingredientId": "mayo", "amount": 3 }
+      ]
+    },
+    {
+      "sku": "kit-kinpira-mushroom",
+      "name": { "en": "Kinpira mushroom taco kit", "ja": "きんぴらきのこタコスキット" },
+      "description": {
+        "en": "Tortillas, mixed mushrooms, carrot, scallion, and sesame for two.",
+        "ja": "2人分のトルティーヤ、きのこ、にんじん、ねぎ、ごま。"
+      },
+      "category": "kit",
+      "price": 22,
+      "serves": 2,
+      "recipeIds": ["kinpira-mushroom-tacos"],
+      "covers": [
+        { "ingredientId": "corn-tortilla", "amount": 6 },
+        { "ingredientId": "mixed-mushroom", "amount": 200 },
+        { "ingredientId": "carrot", "amount": 80 },
+        { "ingredientId": "scallion", "amount": 2 },
+        { "ingredientId": "sesame", "amount": 1 }
+      ]
+    },
+    {
+      "sku": "tortilla-corn-8",
+      "name": { "en": "Stone-ground corn tortillas, 8 pack", "ja": "石臼とうもろこしトルティーヤ 8枚" },
+      "description": { "en": "Small yellow corn tortillas.", "ja": "小さめのイエローコーントルティーヤ。" },
+      "category": "ingredient",
+      "price": 3.75,
+      "covers": [{ "ingredientId": "corn-tortilla", "amount": 8 }]
+    },
+    {
+      "sku": "chicken-thigh-500",
+      "name": { "en": "Boneless chicken thigh, 500 g", "ja": "鶏もも肉（骨なし）500g" },
+      "description": { "en": "Skinless boneless thigh.", "ja": "皮なし骨なしもも肉。" },
+      "category": "ingredient",
+      "price": 7.5,
+      "covers": [{ "ingredientId": "chicken-thigh", "amount": 500 }]
+    },
+    {
+      "sku": "saikyo-miso-tub",
+      "name": { "en": "Saikyo miso tub", "ja": "西京味噌" },
+      "description": { "en": "Sweet white Kyoto miso.", "ja": "甘口の白味噌。" },
+      "category": "ingredient",
+      "price": 6,
+      "covers": [{ "ingredientId": "saikyo-miso", "amount": 8 }]
+    },
+    {
+      "sku": "mirin-bottle",
+      "name": { "en": "Hon mirin, 300 ml", "ja": "本みりん 300ml" },
+      "description": { "en": "True mirin for the glaze.", "ja": "照り焼き用の本みりん。" },
+      "category": "ingredient",
+      "price": 5.5,
+      "covers": [{ "ingredientId": "mirin", "amount": 10 }]
+    },
+    {
+      "sku": "cabbage-half",
+      "name": { "en": "Green cabbage, half head", "ja": "キャベツ 半玉" },
+      "description": { "en": "For a fine shred.", "ja": "千切り用。" },
+      "category": "ingredient",
+      "price": 2.4,
+      "covers": [{ "ingredientId": "cabbage", "amount": 400 }]
+    },
+    {
+      "sku": "sesame-jar",
+      "name": { "en": "Toasted sesame seeds", "ja": "いりごま" },
+      "description": { "en": "A small jar of toasted white sesame.", "ja": "白いりごまの小瓶。" },
+      "category": "ingredient",
+      "price": 3.25,
+      "covers": [{ "ingredientId": "sesame", "amount": 12 }]
+    },
+    {
+      "sku": "scallion-bunch",
+      "name": { "en": "Scallion bunch", "ja": "ねぎ 1束" },
+      "description": { "en": "About six stalks.", "ja": "およそ6本。" },
+      "category": "ingredient",
+      "price": 1.8,
+      "covers": [{ "ingredientId": "scallion", "amount": 6 }]
+    },
+    {
+      "sku": "chili-pack",
+      "name": { "en": "Fresh red chilies, pack of 3", "ja": "赤唐辛子 3本" },
+      "description": { "en": "Fresh heat. Seeds are optional.", "ja": "生の辛味。種はお好みで。" },
+      "category": "ingredient",
+      "price": 2.25,
+      "covers": [{ "ingredientId": "fresh-chili", "amount": 3 }]
+    },
+    {
+      "sku": "yuzu-kosho-jar",
+      "name": { "en": "Yuzu kosho jar", "ja": "柚子胡椒" },
+      "description": { "en": "Citrus chili paste for mild heat.", "ja": "控えめな辛さの柑橘胡椒。" },
+      "category": "ingredient",
+      "price": 8,
+      "covers": [{ "ingredientId": "yuzu-kosho", "amount": 20 }]
+    },
+    {
+      "sku": "chili-oil-bottle",
+      "name": { "en": "Rayu chili oil", "ja": "ラー油" },
+      "description": { "en": "For a hotter finish.", "ja": "辛めの仕上げに。" },
+      "category": "ingredient",
+      "price": 7,
+      "covers": [{ "ingredientId": "chili-oil", "amount": 15 }]
+    },
+    {
+      "sku": "shrimp-300",
+      "name": { "en": "Peeled shrimp, 300 g", "ja": "むきえび 300g" },
+      "description": { "en": "Medium peeled shrimp.", "ja": "中サイズのむきえび。" },
+      "category": "ingredient",
+      "price": 9.5,
+      "covers": [{ "ingredientId": "shrimp", "amount": 300 }]
+    },
+    {
+      "sku": "yuzu-juice-bottle",
+      "name": { "en": "Bottled yuzu juice", "ja": "柚子果汁" },
+      "description": { "en": "Tart yuzu juice.", "ja": "酸味のある柚子果汁。" },
+      "category": "ingredient",
+      "price": 7.25,
+      "covers": [{ "ingredientId": "yuzu-juice", "amount": 8 }]
+    },
+    {
+      "sku": "mayo-jar",
+      "name": { "en": "Japanese mayonnaise", "ja": "マヨネーズ" },
+      "description": { "en": "A squeeze bottle.", "ja": "チューブタイプ。" },
+      "category": "ingredient",
+      "price": 4,
+      "covers": [{ "ingredientId": "mayo", "amount": 20 }]
+    },
+    {
+      "sku": "shiso-pack",
+      "name": { "en": "Shiso leaves, pack of 10", "ja": "大葉 10枚" },
+      "description": { "en": "Fresh perilla.", "ja": "生の大葉。" },
+      "category": "ingredient",
+      "price": 3.5,
+      "covers": [{ "ingredientId": "shiso", "amount": 10 }]
+    },
+    {
+      "sku": "mushroom-pack",
+      "name": { "en": "Mixed mushrooms, 250 g", "ja": "きのこ盛り合わせ 250g" },
+      "description": { "en": "Shimeji and maitake.", "ja": "しめじとまいたけ。" },
+      "category": "ingredient",
+      "price": 4.5,
+      "covers": [{ "ingredientId": "mixed-mushroom", "amount": 250 }]
+    },
+    {
+      "sku": "carrot-bag",
+      "name": { "en": "Carrots, 400 g", "ja": "にんじん 400g" },
+      "description": { "en": "For a matchstick cut.", "ja": "細切り用。" },
+      "category": "ingredient",
+      "price": 1.75,
+      "covers": [{ "ingredientId": "carrot", "amount": 400 }]
+    },
+    {
+      "sku": "soy-bottle",
+      "name": { "en": "Koikuchi soy sauce", "ja": "濃口しょうゆ" },
+      "description": { "en": "Everyday dark soy.", "ja": "普段使いの濃口。" },
+      "category": "ingredient",
+      "price": 3.4,
+      "covers": [{ "ingredientId": "soy-sauce", "amount": 15 }]
+    },
+    {
+      "sku": "sesame-oil-bottle",
+      "name": { "en": "Toasted sesame oil", "ja": "ごま油" },
+      "description": { "en": "A small bottle.", "ja": "小瓶。" },
+      "category": "ingredient",
+      "price": 5.75,
+      "covers": [{ "ingredientId": "sesame-oil", "amount": 12 }]
+    },
+    {
+      "sku": "skillet-carbon",
+      "name": { "en": "Carbon steel skillet, 10 inch", "ja": "鉄製スキレット 26cm" },
+      "description": {
+        "en": "The pan these tacos are seared in. Say you already have a skillet to leave it off.",
+        "ja": "焼き色をつけるフライパン。お持ちなら「フライパンは持っている」と伝えてください。"
+      },
+      "category": "tool",
+      "price": 28,
+      "recipeIds": ["miso-chicken-tacos", "yuzu-shrimp-tacos", "kinpira-mushroom-tacos"],
+      "covers": []
+    }
+  ]
+}
