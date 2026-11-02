@@ -1,0 +1,127 @@
+{
+  "recipes": [
+    {
+      "id": "miso-chicken-tacos",
+      "number": "01",
+      "title": { "en": "Miso chicken tacos", "ja": "味噌チキンタコス" },
+      "dek": {
+        "en": "Sweet saikyo miso glazed thigh, a pile of cabbage, and toasted sesame on small corn tortillas.",
+        "ja": "甘い西京味噌を絡めた鶏もも、キャベツ、いりごまを小さなトルティーヤで。"
+      },
+      "baseServings": 2,
+      "prepMinutes": 15,
+      "cookMinutes": 12,
+      "defaultSpice": "medium",
+      "ingredients": [
+        { "id": "corn-tortilla", "name": { "en": "Corn tortillas", "ja": "コーントルティーヤ" }, "quantity": 6, "unit": "piece" },
+        { "id": "chicken-thigh", "name": { "en": "Chicken thigh", "ja": "鶏もも肉" }, "quantity": 300, "unit": "g" },
+        { "id": "saikyo-miso", "name": { "en": "Saikyo miso", "ja": "西京味噌" }, "quantity": 2, "unit": "tbsp" },
+        { "id": "mirin", "name": { "en": "Mirin", "ja": "みりん" }, "quantity": 1, "unit": "tbsp" },
+        { "id": "cane-sugar", "name": { "en": "Sugar", "ja": "砂糖" }, "quantity": 1, "unit": "tsp", "pantry": true },
+        { "id": "cabbage", "name": { "en": "Green cabbage", "ja": "キャベツ" }, "quantity": 120, "unit": "g" },
+        { "id": "sesame", "name": { "en": "Toasted sesame", "ja": "いりごま" }, "quantity": 1, "unit": "tsp" },
+        { "id": "scallion", "name": { "en": "Scallions", "ja": "ねぎ" }, "quantity": 2, "unit": "piece" },
+        { "id": "fresh-chili", "name": { "en": "Fresh red chili", "ja": "赤唐辛子" }, "quantity": 1, "unit": "piece" }
+      ],
+      "steps": [
+        {
+          "en": "Stir the miso, mirin, and sugar into a loose glaze. Toss the thigh pieces with half of it and let them sit while you shred the cabbage.",
+          "ja": "味噌、みりん、砂糖を混ぜてタレにする。鶏ももに半量を絡め、キャベツを刻むあいだ休ませる。"
+        },
+        {
+          "en": "Sear the chicken in the skillet over medium-high heat until the edges lacquer, then brush on the rest of the glaze and slice.",
+          "ja": "中強火のスキレットで端が照り始めるまで焼き、残りのタレを塗って切る。"
+        },
+        {
+          "en": "Warm the tortillas in a dry pan. Fill with cabbage, chicken, scallion, sesame, and as much chili as you want.",
+          "ja": "トルティーヤを空焼きし、キャベツ、鶏肉、ねぎ、ごま、唐辛子をのせる。"
+        }
+      ],
+      "note": {
+        "en": "These quantities are the published recipe. The concierge on this page rescales them and shops the difference.",
+        "ja": "分量はこの記事の基本です。このページのコンシェルジュが人数と辛さに合わせて買い揃えます。"
+      }
+    },
+    {
+      "id": "yuzu-shrimp-tacos",
+      "number": "02",
+      "title": { "en": "Yuzu shrimp tacos", "ja": "柚子シュリンプタコス" },
+      "dek": {
+        "en": "Quick-seared shrimp, a yuzu mayonnaise, and shiso. Bright enough for a hot night.",
+        "ja": "さっと焼いたえびに柚子マヨと大葉。暑い夜に合う酸味。"
+      },
+      "baseServings": 2,
+      "prepMinutes": 12,
+      "cookMinutes": 8,
+      "defaultSpice": "medium",
+      "ingredients": [
+        { "id": "corn-tortilla", "name": { "en": "Corn tortillas", "ja": "コーントルティーヤ" }, "quantity": 6, "unit": "piece" },
+        { "id": "shrimp", "name": { "en": "Peeled shrimp", "ja": "むきえび" }, "quantity": 250, "unit": "g" },
+        { "id": "yuzu-juice", "name": { "en": "Yuzu juice", "ja": "柚子果汁" }, "quantity": 2, "unit": "tbsp" },
+        { "id": "mayo", "name": { "en": "Mayonnaise", "ja": "マヨネーズ" }, "quantity": 3, "unit": "tbsp" },
+        { "id": "cabbage", "name": { "en": "Green cabbage", "ja": "キャベツ" }, "quantity": 100, "unit": "g" },
+        { "id": "shiso", "name": { "en": "Shiso leaves", "ja": "大葉" }, "quantity": 6, "unit": "piece" },
+        { "id": "fresh-chili", "name": { "en": "Fresh red chili", "ja": "赤唐辛子" }, "quantity": 1, "unit": "piece" }
+      ],
+      "steps": [
+        {
+          "en": "Stir most of the yuzu juice into the mayonnaise. Toss the shrimp with the rest, plus a pinch of salt from the pantry.",
+          "ja": "柚子果汁の大半をマヨネーズに混ぜる。残りをえびに塩少々と絡める。"
+        },
+        {
+          "en": "Sear the shrimp in a hot skillet for about a minute a side. They should curl, not steam.",
+          "ja": "熱したスキレットで片面1分ほど焼く。蒸すのではなく巻き気味に。"
+        },
+        {
+          "en": "Tuck shiso and cabbage into warm tortillas, add the shrimp, and finish with the yuzu mayo and chili.",
+          "ja": "温めたトルティーヤに大葉とキャベツ、えびをのせ、柚子マヨと唐辛子で仕上げる。"
+        }
+      ],
+      "note": {
+        "en": "Salt stays in the pantry. The concierge will not add a salt box to the cart.",
+        "ja": "塩は家庭にある想定です。カートには入れません。"
+      }
+    },
+    {
+      "id": "kinpira-mushroom-tacos",
+      "number": "03",
+      "title": { "en": "Kinpira mushroom tacos", "ja": "きんぴらきのこタコス" },
+      "dek": {
+        "en": "A vegetarian taco with the soy-mirin gloss of kinpira, piled onto corn tortillas.",
+        "ja": "きんぴらの照りをきのことにんじんにのせて、野菜だけのタコスに。"
+      },
+      "baseServings": 2,
+      "prepMinutes": 10,
+      "cookMinutes": 10,
+      "defaultSpice": "mild",
+      "ingredients": [
+        { "id": "corn-tortilla", "name": { "en": "Corn tortillas", "ja": "コーントルティーヤ" }, "quantity": 6, "unit": "piece" },
+        { "id": "mixed-mushroom", "name": { "en": "Mixed mushrooms", "ja": "きのこ" }, "quantity": 200, "unit": "g" },
+        { "id": "carrot", "name": { "en": "Carrot", "ja": "にんじん" }, "quantity": 80, "unit": "g" },
+        { "id": "soy-sauce", "name": { "en": "Soy sauce", "ja": "しょうゆ" }, "quantity": 1.5, "unit": "tbsp" },
+        { "id": "mirin", "name": { "en": "Mirin", "ja": "みりん" }, "quantity": 1, "unit": "tbsp" },
+        { "id": "sesame-oil", "name": { "en": "Sesame oil", "ja": "ごま油" }, "quantity": 1, "unit": "tbsp" },
+        { "id": "sesame", "name": { "en": "Toasted sesame", "ja": "いりごま" }, "quantity": 1, "unit": "tsp" },
+        { "id": "scallion", "name": { "en": "Scallions", "ja": "ねぎ" }, "quantity": 2, "unit": "piece" }
+      ],
+      "steps": [
+        {
+          "en": "Cut the mushrooms into bite-size pieces and the carrot into matchsticks.",
+          "ja": "きのこは食べやすく、にんじんは細切りにする。"
+        },
+        {
+          "en": "Warm the sesame oil in the skillet, fry the carrot for a minute, then add the mushrooms until they take on some color.",
+          "ja": "ごま油を熱し、にんじんを1分炒めてからきのこを色づくまで入れる。"
+        },
+        {
+          "en": "Add soy and mirin and cook until the pan looks glossy. Spoon into warm tortillas with scallion and sesame.",
+          "ja": "しょうゆとみりんを加え、照りが出るまで煮詰める。温かいトルティーヤにねぎとごまとのせる。"
+        }
+      ],
+      "note": {
+        "en": "The published version is mild. Ask the concierge for hot if you want chili oil in the cart.",
+        "ja": "記事の基本は甘口です。辛めがよければコンシェルジュに伝えてください。ラー油がカートに入ります。"
+      }
+    }
+  ]
+}
